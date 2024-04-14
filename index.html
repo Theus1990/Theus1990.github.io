@@ -12,6 +12,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
   </head>
   <body>
     <div class="lines-container"></div>
@@ -123,5 +124,10 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+      if (typeof navigator.serviceWorker !== "undefined") {
+        navigator.serviceWorker.register("pwabuilder-sw");
+      }
+    </script>
   </body>
 </html>
