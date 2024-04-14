@@ -1,13 +1,12 @@
 {
-  "background_color": "#000000",
+  "background_color": "#000",
   "dir": "ltr",
   "display": "standalone",
   "name": "Portifólio",
-  "orientation": "any",
   "scope": "/",
   "short_name": "Mathj1jr",
   "start_url": "/",
-  "theme_color": "#ffffff",
+  "theme_color": "#fff",
   "icons": [
     {
       "src": "img/icon.png",
@@ -15,5 +14,7 @@
       "type": "image/png"
     }
   ],
-  "description": "Primeiro PWA"
+  "description": "Primeiro PWA",
+  "lang": "pt",
+  "orientation": "any"
 }
