@@ -60,7 +60,8 @@ main {
 }
 
 section {
-  background-color: #fff;
+  background-color: #181a1b;
+  color: white;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -74,7 +75,7 @@ footer {
 }
 
 .btn-transparent {
-  background-color: white;
+  background-color: transparent;
   border: none;
   color: transparent;
   padding: 0;
@@ -95,7 +96,7 @@ footer {
   color: black;
 }
 .redes-sociais {
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
   background-color: #232323;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -182,3 +183,9 @@ footer {
 }
 
 /*CSS DO JOGO DO EASTER EGG KKKK*/
+
+.easter-egg {
+  background: linear-gradient(45deg, #ff0000, #ffff00, #008000, #0000ff);
+  background-size: 200% 200%;
+  animation: gradientScroll 5s ease infinite;
+}
