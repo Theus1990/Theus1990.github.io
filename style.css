@@ -51,6 +51,13 @@ main {
   text-align: center;
 }
 
+.no-center {
+  align-items: left;
+  justify-content: left;
+  gap: 20px;
+  text-align: left;
+}
+
 .foto-perfil {
   width: 100px;
   height: 100px;
