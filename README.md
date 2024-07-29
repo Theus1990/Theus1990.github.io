@@ -24,4 +24,5 @@ Esse site foi criado com o intuito de me apresentar um pouco e desenvolver meu p
 
 - Section
 - Listas
+- CSS(Gradient-linear, keyframe)
 - JS (2 Easter egg)
